@@ -18,7 +18,7 @@ class employee:
     def input_data(self):
         # Class function to input data of a single employee
         self.first = input("Enter the first name of the employee: ")
-        self.last = input("Enter the last name of the employee: ")
+        self.last = input("Enter the last name of the employee:  ")
         self.fullname = self.first + " " + self.last
         self.salary = input("Enter the salary of the employee: ")
         self.email = f"{self.fullname}@company.com".lower().replace(" ", "")
